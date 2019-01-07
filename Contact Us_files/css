@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'IM Fell French Canon';
+  font-style: italic;
+  font-weight: 400;
+  src: local('IM FELL French Canon Italic'), local('IM_FELL_French_Canon_Italic'), url(https://web.archive.org/web/20141130044613im_/http://fonts.gstatic.com/s/imfellfrenchcanon/v6/owCuNQkLLFW7TBBPJbMnhdKJYa1hyZsLz5lQ3rWz1aM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Vast Shadow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vast Shadow Regular'), local('VastShadow-Regular'), url(https://web.archive.org/web/20141130044613im_/http://fonts.gstatic.com/s/vastshadow/v6/vUwwSAve1had6QNw3_7lJZ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 04:46:13 Nov 30, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:27:08 Jan 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 61.497 (3)
+  esindex: 0.012
+  captures_list: 94.853
+  CDXLines.iter: 19.165 (3)
+  PetaboxLoader3.datanode: 174.861 (5)
+  exclusion.robots: 0.298
+  exclusion.robots.policy: 0.277
+  RedisCDXSource: 1.789
+  PetaboxLoader3.resolve: 125.533 (2)
+  load_resource: 312.954
+*/

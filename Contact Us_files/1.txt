@@ -1,0 +1,14 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 13:27:17 Jan 7, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:27:18 Jan 7, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+_ate.track.hsr({"loc":"OTQxMThOQVVTQ0EyMTc4MDU3NTgwNzAwMDBDSA==","pc":"smlsh,sml","subscription":{"active":true,"edition":"BASIC","tier":"basic","reducedBranding":false,"insightsEnabled":false},"customMessageTemplates":[],"per-config":[{"name":"per-1","feed":["viewsrnd"],"vector":[],"isProCell":false},{"name":"per-2","feed":["views2"],"vector":[],"isProCell":true},{"name":"per-3","feed":["views2"],"vector":["url"],"isProCell":true},{"name":"per-4","feed":["views2"],"vector":["clusters"],"isProCell":true},{"name":"per-11","feed":["viewscf"],"vector":[],"isProCell":false},{"name":"per-12","feed":["views2"],"vector":["clusters2"],"isProCell":true},{"name":"per-13","feed":["views2"],"vector":["clusters2","url"],"isProCell":false},{"name":"per-14","feed":["views2"],"vector":["term_extract"],"isProCell":false},{"name":"per-15","feed":["controlfeed"],"vector":[],"isProCell":false}]});

@@ -1,0 +1,680 @@
+﻿
+/* Copy of all.css styles */
+table,td,div,span,body,form,p,a,input,select{color:#333;font-size:13px;line-height:17px;font-family:Arial;margin:0;padding:0;}
+p{margin:0 0 20px 0;}
+li,ul,ol{color:#333;font-size:13px;line-height:20px;font-family:Arial;}
+ul{margin: 0px;}
+ol{margin-left:17px;}
+h1,h2{color:#0a61e5;font-weight:normal;font-family:Tahoma,Arial;margin:0;}
+h3,h4{color:#555;font-weight:bold;font-family:Arial;margin:0;margin-bottom: 2px;}
+h5{color:#0a61e5;font-size:18px;line-height:17px;font-family:Tahoma,Arial;font-weight:normal;margin:0;}
+h5 a{text-decoration:none;color:#0a61e5;font-size:18px;line-height:23px;font-family:Tahoma,Arial;font-weight:normal;margin:0;}
+h5 a:hover{text-decoration:underline;color:#599dff;}
+body{text-align:center;margin:0 auto;padding:0px;height:0px;min-width:883px;z-index:0;}
+#popUpBody{min-width:650px;}
+#wrapper{position:relative;width:883px;margin:0 auto;text-align:left;border:0px solid black;z-index:0;}
+h1{font-size:22px;line-height:25px;}
+h2{font-size:21px;line-height:25px;}
+.h2Link{font-size:21px;line-height:25px;}
+h3{font-size:15px;line-height:17px;margin-bottom:15px;}
+h4{font-size:15px;line-height:17px;}
+.small{font-size:11px;}
+a.hLink{font-size:15px;line-height:17px;font-weight:bold;color:#555;color:#0a61e5;font-weight:normal;font-family:Tahoma,Arial;margin:0;}
+.red{color:red;}
+a.red:link{color:red;text-decoration:none;}
+a.red:hover{color:red;text-decoration:underline;}
+.orange{color:#ff4200;}
+a.noDeco:hover{text-decoration:none;}
+A img{border:0 hidden;cursor:hand;cursor:pointer}
+img{border:0;}.imgBorder{border:1px solid #979797;}
+a{color:#0a61e5;text-decoration:none;}
+a:visited{color:#0a61e5;text-decoration:none;}
+a:active{color:#0a61e5;text-decoration:none;}
+a:hover{color:#599dff;text-decoration:underline;}
+.visited a:visited{color:#800080;}
+.smallLink{font-size:11px;}
+.smallWhite{color:#ffffff;font-size:12px;line-height:9px;}
+A.smallWhite:link{color:#ffffff;text-decoration:none}
+A.smallWhite:visited{color:#ffffff;text-decoration:none}
+A.smallWhite:active{color:#dddddd;text-decoration:none}
+A.smallWhite:hover{color:#dddddd;text-decoration:underline}
+.smallGrey{color:#999;font-size:12px;line-height:9px;}
+A.smallGrey:link{color:#999;text-decoration:none}
+A.smallGrey:visited{color:#999;text-decoration:none}
+A.smallGrey:active{color:#599dff;text-decoration:none}
+A.smallGrey:hover{color:#599dff;text-decoration:underline}
+.inputText{font-size:13px;background-color:#F5F5F5;border:1px solid;border-color:#C0C0C0;margin:3px;height:18px;}
+.inputText:hover{border-color:#6699cc;}
+.inputText:focus{border-color:#6699cc;background-color:#eff6fd;}
+.inputTextArea{font-size:13px;background-color:#F5F5F5;border:1px solid;border-color:#C0C0C0;margin:3px;}
+.inputTextArea:hover{border-color:#6699cc;}
+.inputTextArea:focus{border-color:#6699cc;background-color:#eff6fd;}
+.selectBox{font-size:0.89em;}
+.hidden{display:none;}
+.aOrange{font-size:10px;color:#ff4200;padding:0 1px;margin: 0 5px;}
+.arrowGrey{font-size:11px;color:#999;padding:0 1px;margin:0 1px;}
+.deco{text-decoration:underline;}
+.hand{cursor:hand;cursor:pointer;}
+.floatL{float:left;}
+.floatR{float:right;}
+.clear{clear:both;}
+.overFlowHide{overflow:hidden;}
+.border1{border:1px solid red;}
+.center{text-align:center;}
+.justify{text-align:justify;}
+.left{text-align:left;}
+.right{text-align:right;}
+.margin{margin:0 0 20px 0;padding:0;}
+.noMargin{margin:0;padding:0;}
+.noHeight{height:0px}
+.margin5{margin:5px;}
+.marginT10{margin-top:10px;}
+.marginR10{margin-right:10px;}
+.marginR5{margin-right:5px;}
+.marginL10{margin-left:10px;}
+.marginL30{margin:0 0 0 30px;}
+.marginR20{margin:0 20px 0 0;}
+.marginR30{margin:0 30px 0 0;}
+.marginR100{margin:0 100px 0 0;}
+.marginL5{margin-left:5px;}
+.marginL25{margin:0 0 0 25px;}
+.marginL35{margin:0 0 0 35px;}
+.marginL20{margin:0 0 0 25px;}
+.marginL50{margin:0 0 0 50px;}
+.marginT25{margin-top:25px;}
+.marginT35{margin:35px 0 0 0;}
+.marginT50{margin:50px 0 0 0;}
+.marginB50{margin:0 0 50px 0;}
+.marginB30{margin:0 0 30px 0;}
+.marginT0{margin-top:0;}
+.marginR0{margin-right:0;}
+.marginB0{margin-bottom:0px;}
+.marginB5{margin-bottom:5px;}
+.marginL0{margin-left:0;}
+.paddingL20{padding-left:20px}
+.width100{width:100%}
+.width75{width:75%}
+.textIndent{text-indent:25px;margin:3px 0px 0px 0px;}
+.col14{float:left;width:14%;}
+.col25{float:left;width:25%;}
+.col30{float:left;width:30%;}
+.col33{float:left;width:33%;}
+.col40{float:left;width:40%;}
+.col50{float:left;width:50%;}
+.col55{float:left;width:55%;}
+.col65{float:left;width:65%;}
+.col75{float:left;width:75%;}
+.col80{float:left;width:80%;}
+.ulAlignL{margin-left:20px;}
+.reqFields{color:Red;}
+.aSiteG{margin:3px 0 0 10px;}
+.boxTWrap{background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);margin-top:0;width:717px;}
+.boxWrap{background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);margin-top:16px;width:717px;}
+.boxT{height:62px;background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -224px;text-align:left;}
+.boxC{background-repeat:repeat-y;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite2-02.png);background-position: -190px 0px;padding:15px 25px 20px 25px;}
+.boxB{background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -465px;height:19px;}
+.boxHeader{padding:30px 20px 0 25px;}
+.boxPWrap{background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);margin-top:25px;width:665px;overflow:hidden;}
+.boxPT{background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -379px;padding:12px 20px 0px 20px;margin:0;overflow:hidden;}
+.boxPC{background-repeat:repeat-y;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite2-02.png);background-position: -927px 0px;padding:10px 20px 20px 20px;height:247px;}
+.boxPDesc{margin-top:10px;}
+.boxPDetailWrap_shortlist{margin-top:20px;}
+.boxPB{background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -434px;height:11px;width:665px;}
+.blueXL{color:#0a61e5;font-size:16px;line-height:22px;font-family:Arial;margin:0;}
+.boxPDetailWrap{position:relative;top:10px;left:0px;height:25px;width:665px;overflow:hidden;}
+.boxPDetailWrapIE{height:25px;width:665px;overflow:hidden;margin-top:10px}
+.boxPShortL{text-decoration:none;cursor:pointer;cursor:hand;color:#0a61e5;}
+.boxPShortL:hover{text-decoration:underline;cursor:pointer;cursor:hand;color:#599dff;}
+.idRed{color:#f26e6e;}
+.aGridWrap{width:665px;text-align:left;}
+.aGL,.aGC,.aGR{border:1px dotted;border-bottom-style:none;padding:2px;border-spacing:0px;border-collapse:collapse;border-color:Silver;font-size:12px;}
+.aGC{border-left-style:none;border-right-style:dotted;}
+.aGR{border-left-style:none;border-right-style:dotted;}
+.aGB{border-bottom-style:dotted;}
+
+.searchUnderAreas_allBorders {border:1px dotted;padding:2px;border-spacing:0px;border-collapse:collapse;border-color:Silver;font-size:12px; }
+.searchUnderAreas_removeBottomBorder {border-bottom-style:none;}
+.searchUnderAreas_removeRightBorder {border-right-style:none;}
+
+.horizontalcssmenu ul{margin: 0;padding: 0;list-style-type: none;background: #566565;z-index: 3;}
+.horizontalcssmenu ul li{display: block;float: left;}
+.horizontalcssmenu ul li a{display: block;border-left-width: 0;text-decoration: none;}
+.horizontalcssmenu ul li ul{position: absolute;display: block;visibility: hidden;z-index: 100;min-height:80px;font-family: Arial, Helvetica, sans-serif;padding-top: 1px;margin-top: 1px;}
+.horizontalcssmenu ul li ul li{display: inline;float: none;}
+.horizontalcssmenu ul li ul li a{width: 130px;font-weight: normal;font-family: Arial, Helvetica, sans-serif;color: #FFFFFF;background: #0A51CD;border-width: 0 1px 1px 1px;font-family: Arial, Helvetica, sans-serif;}
+.horizontalcssmenu ul li ul li a:hover{background-color: #eff6fb;color: #3468c7;	font-family: Arial, Helvetica, sans-serif;text-decoration: none;}
+.horizontalcssmenu .arrowdiv{position: absolute;right: 0;}
+a.sample_attach, div.sample_attach{border:  none;padding: 4px 0;background: #004bba;text-decoration: none;font-family: Arial, Verdana, Sans-Sherif;font-weight: 400;font-size: 0.9em;color:   #FFFFFF;}
+
+#header{margin:0 auto;width:883px;height:76px;position:relative;}
+#hLogo{top:0px;left:0px;width:400px;height:76px;position:relative;}
+#hLogin{top:10px;right:190px;height:25px;position:absolute;}
+#hFlags{top:11px;right:5px;height:25px;position:absolute;}
+#hLikeThis{top:35px;right:1px;position:absolute;}
+#footer{clear:both;left:170px;width:717px;height:70px;background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -504px;position:relative;padding:35px 0 0 0;text-align:center;}
+.footerGrey{color:#909395;font-size:11px;line-height:15px;}
+#topMenu{margin:0 auto;width:883px;height:40px;position:relative;background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -10px;z-index:2;}
+#idSBoxWrap{left:803px;top:15px;width:40px;height:16px;position:absolute;}
+#IdSBox{font-size:11px;width:38px;height:13px;border:none;border-collapse:collapse;background-color:#fff;}
+#idSBtn{left:853px;top:14px;width:16px;height:16px;position:absolute;}
+#topImage{height:139px;position:relative;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/topImageSmall1-new.jpg);}
+#topImageText{position:relative;top:65px;left:555px;color:#fff;font-family:Tahoma;font-size:36px;width:300px;line-height:40px}
+#topImageTextS{position:relative;top:68px;left:555px;color:#fff;font-family:Tahoma;font-size:17px;width:300px;line-height:20px}
+#topImageTextSub{position:relative;top:20px;left:575px;color:#fff;font-family:Tahoma;font-size:36px;width:300px;line-height:40px}
+#topImageTextSubS{position:relative;top:23px;left:590px;color:#fff;font-family:Tahoma;font-size:17px;width:300px;line-height:20px}
+#siteGuide{top:103px;left:17px;margin:0 auto;width:730px;height:15px;position:absolute;z-index:1;}
+#quickS{margin:0 auto;width:160px;height:333px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/quicksearch-new.gif);z-index:3;}
+#qH2{color:#fff;font-size:17px;line-height:20px;padding-left:22px;padding-top:30px;}
+.qH4{color:#fff;font-size:14px;line-height:22px;font-weight:normal;}
+#qArea{top:75px;left:19px;width:125px;height:40px;position:absolute;}
+#qType{top:130px;left:19px;width:125px;height:40px;position:absolute;}
+#qBedroom{top:185px;left:19px;width:125px;height:40px;position:absolute;}
+#qBtn{top:260px;left:21px;position:absolute;text-align:center;}
+.qSelectBox{width:125px;font-size:0.89em;background-color:#eff6fd;}
+.qSelectOption{background-color:#c7d9f5}
+#lmenu{margin:0 auto;width:166px;float:left;position:relative;}
+#lFillIn{top:240px;left:0px;width:160px;height:334px;}
+#lShort{height:133px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -70px;}
+#lShortH4{top:16px;left:45px;position:relative;color:#000;font-weight:normal;font-size:17px;line-height:20px;}
+#lShortP{top:22px;left:19px;text-align:center;position:relative;width:120px;}
+#lInspi{height:82px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/inspirationTop-new.gif);}
+#lInspiH4{top:16px;left:35px;position:relative;color:#000;font-weight:normal;font-size:17px;line-height:20px;width:120px;}
+#lInspiTLinks{top:28px;left:21px;width:131px;position:relative;}
+#lInspiC{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/inspirationCenter-new.gif);padding:0 0 0 21px}
+#lInspiB{height:36px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/inspirationBottom-new.gif);}
+A.lInspiLinks:link{color:#000000;text-decoration:none;}
+A.lInspiLinks:visited{color:#000000;text-decoration:none;}
+A.lInspiLinks:hover{color:#0a61e5;text-decoration:underline;}
+#content{margin:0 auto;top:0;width:717px;float:left;position:relative;}
+#pAlbum{width:717px;height:222px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/photoalbum-new.gif);}
+#pAlbumR{top:45px;left:25px;position:relative;width:400px;}
+.boxPopWrap{width:614px;margin-left:auto;margin-right:auto;margin-top:30px;}
+.boxPopT{height:29px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxPopT-new.gif);}
+.boxPopC{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxPopC.gif);padding:0 20px 0 20px;}
+.boxPopB{background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxPopB.gif);height:29px;}
+.boxPopWrapWide{width:665px;margin-left:auto;margin-right:auto;margin-top:30px;}
+.boxPopTWide{height:29px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxPopTwide.gif);}
+.boxPopCWide{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxPopCwide.gif);padding:0 20px 0 20px;}
+.boxPopBWide{background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxPopBwide.gif);height:29px;}
+li.aOrange{margin:0px;list-style-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/arrowsOrange-new.gif);}
+.box3Wrap{margin-top:17px;height:270px;overflow:hidden;}
+.box3Box1{width:225px;background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);height:280px;}
+.box3Box2{width:225px;height:280px;background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);position:relative;top:-280px;left:246px;}
+.box3Box3{width:225px;height:280px;background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);position:relative;top:-560px;left:492px;}
+.box3BoxT{height:62px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box225T-new.gif);}
+.box3BoxC{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box225C-new.gif);padding:15px 20px 0 20px;height:170px;}
+.box3BoxB{background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box225B-new.gif);height:29px;}
+
+.box3Box3InfoWrapAll{width:225px;position:relative;right:1px;float:right;text-align:left;padding-left:10px;margin-left:5px;}
+.box3Box3InfoWrap{width:225px;position:relative;right:1px;float:right;text-align:left;}
+.box3Box3Info{float:right;position:relative;width:225px;margin-bottom:13px;background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC.gif)}
+.box3BoxCInfo{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box225C.gif);padding:5px 20px 0 20px}
+.box2Wrap{margin-top:17px;overflow:hidden;}
+.box2Box1{width:471px;background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif)}
+.box2Box2{width:225px;background-repeat:repeat-x;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif)}
+.box2Box2C{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box225C-new.gif);height:160px;padding:15px 20px 0 20px}
+.box2BoxT{height:62px;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box471T-new.gif);}
+.box2BoxC{background-repeat:repeat-y;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box471C-new.gif);height:160px;padding:15px 20px 0 20px}
+.box2BoxB{background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/box471B-new.gif);height:23px}
+.columns2Cars{float:left;width:40%;line-height:18px;}
+.box3BoxBtn1{height:30px;width:120px;left:40px;bottom:-6px;position:relative;}
+.box3BoxBtn2{height:30px;width:120px;left:55px;bottom:38px;position:absolute;}
+.taGrid{border:1px solid;padding:0px;border-spacing:0px;border-collapse:collapse;}
+.tdGrid{border:1px solid;vertical-align:top;padding:1px;}
+.infoImg{width:250px;height:175px;}
+.propPhotoH{width:320px;height:240px;border:1px solid #979797;}
+.propPhotoV{width:320px;height:425px;border:1px solid #979797;}
+.navBar{background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/navBar2-new.gif);margin-top:16px;margin-bottom:-12px;padding:12px 0 0 0;height:42px;}
+.navBarSpan{font-size:16px;color:#ff4200;margin:0 10px 0 20px;}
+#navBarLinksActive{color:#ff4200;}
+.navBarAdvertise{background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/navBar2-new.gif);margin-bottom:-12px;padding:12px 0 0 0;height:42px;}
+.navBarLinks{margin:0 10px 0 10px;}
+.navBarLinks_active{margin:0 10px 0 10px;color:#ff4200 !important;}
+#propId{text-align:right;color:#f26e6e;float:right;margin:33px 20px;}
+#boxFact{width:190px;height:350px;position:relative;top:10px;right:1px;float:right;text-align:left;background-repeat:no-repeat;background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxFact-new.gif);padding-left:20px;margin-left:20px;}
+.col2IE{float:left;width:332px;line-height:20px;}
+.pricePeriodBlue{background-color:#f1f4f9;line-height:25px;margin-top:2px;margin-bottom:2px;}
+.pricePeriodWhite{background-color:#ffffff;line-height:25px;margin-top:2px;margin-bottom:2px;}
+.overviewR{float:left;width:475px;}
+#boxLogin{background-color:#ffffff;border:1px solid #dddddd;position:absolute;left:405px;top:28px;z-index:6;height:170px;width:240px;padding-top:1px;}
+.inputTextLogin{font-size:12px;background-color:#F5F5F5;border:1px solid;border-color:#C0C0C0;margin:1px;}
+.inputTextLogin:hover{border-color:#6699cc;}
+.inputTextLogin:focus{border-color:#6699cc;background-color:#eff6fd;}
+.boxLoginH{background-color:#eeeeee;text-indent:5px;padding-bottom:3px;padding-top:3px}
+.boxLoginF{position:absolute;bottom:0;left:0;background-color:#eeeeee;width:240px;height:13px;padding-top:0;text-align:center;}
+a.boxLoginL{line-height:12px;font-size:11px;}
+#boxLoginBtn{background-color:#4886e4;color:#ffffff;font-size:12px;height:22px;width:50px;margin:5px;border:1px solid #000000}
+#email_spm{color:#000066;background:none;border:none;width:1px;}
+#newDesign
+{
+	background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/newDesign-new.gif);
+	width: 120px;
+	height: 70px;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+#googleMapProperty_canvas{width:500px;height:480px}
+#googleMapProperty{width:400px;height:30px}
+#googleMapProperty_Bubble{overflow:auto;width:auto;height:30px}
+
+#xmasSnowTop{top:43px;left:5px;height:20px;width:890px;position:absolute;z-index:5;}
+#xmasSnowLeft{top:235px;left:3px;height:20px;width:200px;position:absolute;z-index:5;}
+#xmasHat{top:-6px;left:-14px;height:20px;width:100px;position:absolute;z-index:5;}
+#xmasBalls{top:49px;left:159px;height:20px;width:100px;position:absolute;z-index:5;}
+#xmasBells{top:61px;left:575px;height:20px;width:100px;position:absolute;z-index:5;}
+
+#validUntil{top:367px;left:500px;height:136px;width:187px;position:absolute;}
+.facebookFollow{padding-left: 9px; margin-top: 15px}
+#shareBox{background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -306px;background-repeat:no-repeat; padding:8px 0 8px 8px; border: 0px solid #cccccc; margin-bottom: 15px; margin-top: -15px; margin-right: -1px; width: 212px; height: 45px}
+#shareBoxProperty{background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxShare.gif);background-repeat:no-repeat; padding:8px 0 8px 8px; position:relative; bottom: -21px; margin-right: -8px; width: 212px; height: 38px;}
+#priceTagA{position:relative; bottom:-75px; right: -25px; background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/priceTag-advertise.gif); background-repeat:no-repeat;height:282px; width:232px; border: 0px solid}
+#priceTag{position:relative; float: right; top:-65px; right: 15px; background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/priceTag.png); background-repeat:no-repeat;height:116px; width:115px; border: 0px solid}
+#priceTagOnly{position:relative; margin-right: 21px; background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/priceTag.png); background-repeat:no-repeat;height:116px; width:115px}
+#phoneIcon{position:relative; margin-top: -45px; margin-left: 155px; background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/phoneIcon.gif); background-repeat:no-repeat;height:49px; width:42px}
+.twitter{background-repeat:no-repeat;background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/twitter.gif);height:155px;padding:25px 8px 0 0;text-align:center}
+
+#shVideo{border: 1px solid #DDD;}
+
+#QSLeftMenu{margin:0 auto;width:166px;float:left;position:relative;margin-top:-5px;}
+h4
+{
+    color: #f4f4f4;
+}
+#lmenu h4
+{margin-top: 20px;}
+#leftPane
+{
+    width: 155px;
+    margin-right: 11px;
+    float: left;
+}
+.ulTypeList
+{
+    padding: 0px;
+    margin: 0 0 0 10px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: none;
+}
+.ulTypeList li
+{
+    list-style-type: square;
+    font-style: italic;
+    font-size: smaller;
+    color: #999;
+}
+a[disabled]
+{
+    color: Red;
+}
+#lmenu
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite2-02.png);
+    background-position: -10px 0px;
+    background-repeat:repeat-y;
+            
+}
+#lmenu div{
+    color: #f4f4f4;
+}
+#lmenu h2
+{
+    color: #f4f4f4;
+    position: relative;
+    top: 22px;
+    left: 40px;
+    margin-bottom: 20px;
+}
+#lshort
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);
+    background-position:-10px -70px;
+}
+.wBack
+{
+    background-color: #f4f4f4 !important; 
+}
+.clearAll
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);
+    background-position:-10px -604px;
+    background-repeat:no-repeat;
+    padding-left:11px;
+    float:left;
+    margin-top:5px;
+}
+.clearAllText
+{
+    text-decoration:underline;
+    white-space:nowrap;
+}
+.clearAllText a
+{
+    color: White;
+    font-size: 11px;
+}
+.clearAll a
+{
+    color: White;
+    font-size: 11px;
+}
+.lMenuBottom
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/searchExtendedBackB.gif);
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+/* Menu - no fancy use of selectors due to IE6 :-( */
+.logoBox
+{	
+	float:left;
+}
+.menuBox-ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.menuBox-ul-li
+{
+	float:left;
+	position: relative;
+	margin: 0;
+}
+.menuBox-ul-li-a, .menuBox-ul-li-a:visited, .menuBox-ul-li-a:hover
+{
+	color:White;
+	height:40px;
+	line-height:40px;
+	display:block;
+	text-decoration:none;
+	font-size: 14px;
+	font-family:Tahoma;
+	letter-spacing:1px;
+	width: 129px;
+	text-align:center;
+	
+}
+.menuBox-ul-li-a:hover
+{
+    background: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/btnMouseOver-new.png) repeat-x;    
+}
+.splitter
+{
+	background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/btnSplitter-new.png);
+	height:40px;	
+	width: 3px;
+	float:left;
+	margin: 0;
+}
+.menuBox-ul-ul
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	list-style-type: none;
+	list-style-image: none;
+	background-color: #0A51CD;
+	padding: 0px;
+	width: 129px;
+	
+}
+.propertyIdText
+{
+    position: absolute;
+    right: 95px;
+    top:13px;
+    color: White;
+}
+
+/* SubMenu */
+.menuBox-ul-li:hover ul
+{
+	display: block;
+	
+}
+.menuBox-ul-ul:hover
+{
+	display: block;
+}
+
+.menuBox-ul-ul-li-a, .menuBox-ul-ul-li-a:visited
+{
+	white-space:nowrap;
+	color: White;
+	font-family:Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+	padding: 5px 5px;
+	text-align:left;
+	height: 20px;
+	display:block;
+	
+}
+
+.menuBox-ul-ul-li-a:hover
+{
+    color: #3468C7;
+    background-image: none;
+    background-color: #EFF6FB;
+    text-decoration: none;
+}
+
+
+/* END menu */
+
+.blueButton, .blueButton:hover, .blueButton:visited
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);background-position:-10px -638px;display:block;background-repeat:no-repeat;width:113px;height:25px;color:White;text-align:center;vertical-align:middle;line-height:25px;
+    font-family:Tahoma, Arial;
+    font-size: 16px;
+}
+.blueButton:hover
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/MasterSprite-2011-03-07.png);
+    background-position:-10px -767px;
+    text-decoration:none;
+}
+
+.descDiv
+{
+    padding-left:84px;
+}
+
+.greenButton, .greenButton:hover, .greenButton:visited
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/btnGreen.gif);display:block;background-repeat:no-repeat;width:113px;height:25px;color:White;text-align:center;vertical-align:middle;line-height:25px;
+    font-family:Tahoma, Arial;
+    font-size: 16px;
+}
+.greenButton:hover
+{
+    background-image: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/btnGreen_on.gif);
+    text-decoration:none;
+}
+
+.fullPageContentBoxWrap {
+background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxTC-new.gif);
+background-repeat:repeat-x;
+margin-top:16px;
+width:883px;
+}
+
+.fullPageContentBoxT {
+background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxT_883.gif);
+background-repeat:no-repeat;
+height:62px;
+text-align:left;
+}
+
+.fullPageContentBoxC {
+background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxC_883.gif);
+background-repeat:repeat-y;
+padding:15px 25px 20px;
+}
+
+.fullPageContentBoxB {
+background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/boxB_883.gif);
+background-repeat:no-repeat;
+height:19px;
+}
+
+.StarsCategoryDiv
+{
+    float:left;
+    padding-left:16px;
+    width:440px;
+    padding-top:5px;
+}
+
+.StarsDiv
+{
+    float:left;    
+}
+
+.stars div a 
+{
+    background: transparent url(/web/20150914195637im_/http://www.bookingcalendar.info/pics/star_sprite.png) 0 0 no-repeat;
+    display: inline-block;
+    height: 23px;
+    width: 12px;
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+.stars a.rating-right 
+{
+    background-position: 0 -23px;
+    padding-right: 6px;
+}
+
+.stars a.rating-over 
+{ 
+    background-position: 0 -46px; 
+}
+
+.stars a.rating-over.rating-right 
+{ 
+    background-position: 0 -69px; 
+}
+
+.stars a.rating 
+{ 
+    background-position: 0 -92px; 
+}
+
+.stars a.rating.rating-right 
+{ 
+    background-position: 0 -115px; 
+}
+
+.StarsHr
+{
+    width:585px;
+    padding-left:16px;
+    clear:both;
+}
+
+.divStarCategoryWrapper
+{
+    padding-top:30px;
+}
+
+.divStarCategoryWrapper h3
+{
+    margin-bottom:5px;
+}
+
+.divSearchBreadcrumb
+{
+    margin-top:10px;
+}
+.enquiryOwnerInfo { font-weight:bold; }
+.spanMarketingNotAllowed { font-style:italic; font-size:11px; }
+.enquiryNewsletter { font-size:10px; }
+.enquiryErrorMsg { color:Red; }
+.email_spm{ color:#000066; background:none; border:none; width:1px; }
+.enquiryCalendarGreen { background: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/calendar-sprite_2.png) no-repeat right -240px; } 
+.enquiryCalendarRed { background: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/calendar-sprite_2.png) no-repeat right -120px; } 
+.enquiryCalendarGreenRed { background: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/calendar-sprite_2.png) no-repeat right -300px; } 
+.enquiryCalendarRedGreen { background: url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/calendar-sprite_2.png) no-repeat right -180px; } 
+table.RadCalendar { width: 200px !important; }
+table.RadCalendar .rcMainTable { font: 12px/17px "segoe ui",arial,sans-serif; }
+.RadCalendar td.rcMain tr.rcRow th { padding: 0 5px; }
+.RadCalendar td.rcMain tr.rcWeek th, .RadCalendar td.rcMain tr.rcRow td, .RadCalendar td.rcMain tr.rcRow td a { background-repeat: no-repeat; text-align: center; padding: 0; border: none; }
+.enquiryCalendar { float:left }
+.videoBlock{display:block;width:640px;height:360px;border:1px solid #dddddd}
+.CustomerSignUp_WhyAdvertiseUL { margin-top:13px;margin-bottom:13px; list-style-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/liBullet.gif); }
+.CustomerSignUp_SitesUL { list-style-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/liBullet.gif); }
+.h4OwnersFaq { color:#555555; }
+.ulOwnersFaq{margin-top:0;list-style-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/liBullet.gif);margin-bottom:13px; }
+.H4marginT50{margin:50px 0 0 0;color:#555555;}
+.Calendar_BookedDay { background-color:#EF0E56; }
+.Calendar_LastMinuteDay { background-color:#32cd32; }
+.whitered{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_red_1_3.gif);background-repeat:no-repeat;}
+.redwhite{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_red_2_3.gif);background-repeat:no-repeat;}
+.redred{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_half_red_3.gif);background-repeat:no-repeat;}
+.redgreen{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_red-green_3.gif);background-repeat:no-repeat;}
+.whitegreen{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_green_1.gif);background-repeat:no-repeat;}
+.greenwhite{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_green_2.gif);background-repeat:no-repeat;}
+.greengreen{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_half_green.gif);background-repeat:no-repeat;}
+.greenred{background-image:url(https://web.archive.org/web/20150914195637im_/http://static.spain-holiday.com/pics/TelerikCalendar20x20_green-red_3.gif);background-repeat:no-repeat;}
+#propertyCalendar .rcWeek th { border-width:0px;height:19px;width:23px; background-color:#DDEDF9; }
+#propertyCalendar .rcTitle { line-height:16px; }
+#propertyCalendar .rcOtherMonth { border-width:0px;height:18px;width:23px; }
+#propertyCalendar .rcMainTable { height:150px; }
+#propertyCalendar .rcFastNext { display:none; }
+#propertyCalendar .rcFastPrev { display:none; }
+#propertyCalendar .rcFooter { border:none; text-align:left; }
+#propertyCalendar table.RadCalendar .rcMainTable { border-spacing:0px; }
+#propertyCalendar .RadCalendarMultiView_Default .rcMain { border:none; }
+#propertyCalendar table.RadCalendar_Default { background-color:transparent; }
+#propertyCalendar .RadCalendarMultiView_Default .rcCalendar table { border-spacing:0px; padding:3px; }
+#propertyCalendar .RadCalendarMultiView_Default .rcMainTable .rcTitle { background-image:none; background-color:#2A6EBB; color:White; }
+#propertyCalendar .RadCalendar .rcTitlebar .rcTitle { visibility:hidden; }
+#propertyCalendar .RadCalendarMultiView_Default .rcTitlebar { border:none; }
+#propertyCalendar .RadCalendarMultiView_Default .rcTitlebar table { border:none; }
+#propertyCalendar .RadCalendarMultiView_Default .rcTitlebar { background-image:none; background-color:transparent; }
+#propertyCalendar .RadCalendar_Default .rcTitlebar .rcNext { background-image:none; overflow:visible; text-indent:-35px; color:Black; width:auto; white-space:nowrap; }
+#propertyCalendar .RadCalendar_Default .rcTitlebar .rcPrev { background-image:none; overflow:visible; text-indent:0px; color:Black; width:auto; white-space:nowrap; }
+.RadComboBox .rcbReadOnly td.rcbArrowCell a { height:21px; }
+.RadComboBoxDropDown_Transparent .rcbList { background-image:none !important; background-color:#EFF6FD !important; }
+.rcbHovered .rcbInputCellLeft { background-color:#E3E3E3 !important; }
+.rcbFocused .rcbInputCellLeft { background-color:#E3E3E3 !important; }
+.RadComboBox table td.rcbInputCell, .RadComboBox .rcbInputCell .rcbInput { font-size:12px; font-family:Arial; color:#333333; }
+.RadComboBoxDropDown_Transparent .rcbHovered { background:none repeat scroll 0 0 #DFDFDF !important; }
+.RadComboBoxDropDown_Transparent .rcbSeparator { background:none repeat scroll 0 0 #C7D9F5 !important; color:Black !important; }
+.RadComboBox table td.rcbInputCell, .RadComboBox .rcbInputCell .rcbInput { background:none repeat scroll 0 0 #EFF6FD !important; }
+.RadComboBox_Transparent, .RadComboBox_Transparent .rcbInput, .RadComboBoxDropDown_Transparent { border-color:#E3E3E3; border-style:inset; border-width:1px; }
+.monthTitle { background-color: #2A6EBB;color: #FFFFFF; line-height: 16px;border-color: #C4C4C4;padding: 0 0 2px;border-style: solid;border-width: 0 0 1px;text-align: center;border-spacing: 0;border-collapse: separate; }
+.propertyCalendarMainTable { background-color: Transparent;border: 0 none;border-collapse: separate;table-layout: auto; border-spacing:6px; }
+.rowMonth { background-color:White;border-color: #868686;border-style: solid;border-width: 1px; }
+.monthTable { background-color:Transparent;border-spacing: 0;padding: 3px; }
+.monthHeader { background-color: #DDEDF9;border-width: 0;height: 18px;width: 17px;background-repeat: no-repeat;border: medium none;text-align: center;color: #333333;cursor: default;font-weight: normal;vertical-align: middle; }
+.calendarDay { height:19px;width:19px;text-align: center; }
+.rcPrev { white-space:nowrap; }
+.rcNext { white-space:nowrap; }
+.WhiteDay { color:White; }
+.calendarDayTd { border-width: 0;height: 18px;width: 19px; }
+/*
+     FILE ARCHIVED ON 19:56:37 Sep 14, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:12:47 Jan 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 176.129 (3)
+  esindex: 0.013
+  captures_list: 189.813
+  CDXLines.iter: 9.103 (3)
+  PetaboxLoader3.datanode: 207.683 (5)
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.128
+  RedisCDXSource: 1.641
+  PetaboxLoader3.resolve: 96.675 (2)
+  load_resource: 131.211
+*/

@@ -1,0 +1,38 @@
+/* latin */
+@font-face {
+  font-family: 'IM Fell French Canon';
+  font-style: italic;
+  font-weight: 400;
+  src: local('IM FELL French Canon Italic'), local('IM_FELL_French_Canon_Italic'), url(http://web.archive.org/web/20180207195358im_/http://fonts.gstatic.com/s/imfellfrenchcanon/v7/owCuNQkLLFW7TBBPJbMnhRZap5XCWJPp-I1JveJ-kLM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+  font-family: 'Vast Shadow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vast Shadow Regular'), local('VastShadow-Regular'), url(http://web.archive.org/web/20180207195358im_/http://fonts.gstatic.com/s/vastshadow/v7/vUwwSAve1had6QNw3_7lJY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/*
+     FILE ARCHIVED ON 19:53:58 Feb 07, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:32:14 Jan 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 83.127 (3)
+  esindex: 0.008
+  captures_list: 103.503
+  CDXLines.iter: 12.716 (3)
+  PetaboxLoader3.datanode: 1188.708 (4)
+  exclusion.robots: 0.18
+  exclusion.robots.policy: 0.165
+  RedisCDXSource: 1.592
+  PetaboxLoader3.resolve: 42.432
+  load_resource: 1166.078
+*/
