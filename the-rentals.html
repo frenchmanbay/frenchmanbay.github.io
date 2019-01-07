@@ -957,14 +957,14 @@
 
 
 	<script>
-			$( document ).ready(function() {
-				$('.wsb-element-gallery .wsb-media-gallery-arrows-right-arrow').click(function (e) {
-					nextSlide($(this).closest('.wsb-media-gallery'));
-				});
-				$('.wsb-element-gallery .wsb-media-gallery-arrows-left-arrow').click(function (e) {
-					nextSlide($(this).closest('.wsb-media-gallery'), true);
-				});
+		$( document ).ready(function() {
+			$('.wsb-element-gallery .wsb-media-gallery-arrows-right-arrow').click(function (e) {
+				nextSlide($(this).closest('.wsb-media-gallery'));
 			});
+			$('.wsb-element-gallery .wsb-media-gallery-arrows-left-arrow').click(function (e) {
+				nextSlide($(this).closest('.wsb-media-gallery'), true);
+			});
+		});
 
 		var currSlide = {};
 		function nextSlide(gallery, backwards) {
