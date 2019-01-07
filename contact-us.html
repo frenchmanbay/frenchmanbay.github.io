@@ -87,11 +87,11 @@
 					<div data-type="element" style="position:absolute;top:116.5px;left:39px;z-index:46;height:419px;width:537px;background:transparent;border:none;">
 						<div class="form" id="form_6e4ab839ad254296be0800fdbe9ff28d">
 
-							<form id="contactform" method="POST">
-								<div class="form-row"><label class="form-label">Name:</label><input type="text" name="name" class="form-value"></div>
-								<div class="form-row"><label class="form-label">Email address:</label><input type="text" name="email" class="form-value"></div>
-								<div class="form-row"><label class="form-label">Subject:</label><input type="text" name="subject" class="form-value"></div>
-								<div class="form-row"><label class="form-label">Message:</label><textarea name="message" class="form-value"></textarea></div>
+							<form id="contactform">
+								<div class="form-row"><label class="form-label">Name:</label><input type="text" id="name" name="name" class="form-value"></div>
+								<div class="form-row"><label class="form-label">Email address:</label><input type="text" id="email" name="email" class="form-value"></div>
+								<div class="form-row"><label class="form-label">Subject:</label><input type="text" id="subject" name="subject" class="form-value"></div>
+								<div class="form-row"><label class="form-label">Message:</label><textarea id="message" name="message" class="form-value"></textarea></div>
 								<div class="form-row"><input id="sendMessage" type="submit" value="Submit" class="form-submit"></div>
 
 							</form>
@@ -188,21 +188,29 @@
 		$(document).ready(function () {
 			var message = "";
 
-			$("#sendMessage").on("click", function () {
-				message = $("#contactform").serialize();
-
-				$("#sendMessage").on("click", function() {
-						message = $("#contactform").serialize();
-						$.ajax({
-								url: "//formspree.io/circuitsdk01@gmail.com",
-								method: "POST",
-								data: {message: message},
-								dataType: "json"
-						});
-						alert('Thanks for the email, we\'ll be in touch promptly.');
-						return false;
-				});
-
+			$("#sendMessage").on("click", function(e) {
+				e.preventDefault();
+					var form = $("#contactform");
+					message = form.serialize();
+					$.ajax({
+							url: "https://formspree.io/rurscheler@gmail.com",
+							type: "POST",
+							data: {
+								name: $('#name').val(),
+								email: $('#email').val(),
+								subject: $('#subject').val(),
+								message: $('#message').val()
+							},
+							dataType: "json",
+							success: function(data) {
+								form.trigger('reset'); // reset form
+							},
+							error: function(e) {
+								console.log(e);
+							}
+					});
+					alert('Thanks for the email, we\'ll be in touch promptly.');
+					return false;
 			});
 		});
 	</script>
