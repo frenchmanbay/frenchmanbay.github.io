@@ -193,7 +193,7 @@
 					var form = $("#contactform");
 					message = form.serialize();
 					$.ajax({
-							url: "https://formspree.io/rurscheler@gmail.com",
+							url: "https://formrelay.com/r/kfCtwiUzia",
 							type: "POST",
 							data: {
 								name: $('#name').val(),
@@ -207,6 +207,7 @@
 							},
 							error: function(e) {
 								console.log(e);
+								form.trigger('reset'); // reset form
 							}
 					});
 					alert('Thanks for the email, we\'ll be in touch promptly.');
